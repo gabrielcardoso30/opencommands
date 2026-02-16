@@ -13,6 +13,24 @@ O objetivo é reduzir o tempo gasto na criação de contextos complexos e fornec
 
 ---
 
+## ❤️ Por que criamos isso?
+
+Sabe aquela sensação de olhar para uma tela em branco às 18h de uma sexta-feira, precisando escrever uma documentação técnica perfeita? Ou o peso de herdar um código legado sem nenhum comentário, que parece uma bomba-relógio prestes a explodir na sua mão?
+
+Nós conhecemos essa dor.
+
+Criamos este projeto porque cansamos de ver desenvolvedores brilhantes perdendo horas em tarefas repetitivas, lutando contra o bloqueio criativo ou se sentindo sobrecarregados pela complexidade crescente do software moderno.
+
+Acreditamos que a programação é uma **arte**, e que você deveria gastar sua energia resolvendo problemas complexos de arquitetura, e não formatando strings ou escrevendo *boilerplate*.
+
+Estes prompts não são apenas "comandos para o ChatGPT". São **ferramentas de sobrevivência**. São atalhos mentais que transformam ansiedade em produtividade. Cada prompt aqui foi refinado depois de muitas frustrações reais, bugs em produção e reuniões intermináveis.
+
+Queremos que você termine seu trabalho mais cedo. Queremos que você sinta orgulho do código que entrega. Queremos que você tenha um "Senior Partner" disponível 24/7 para te ajudar a pensar.
+
+É por isso que estamos aqui.
+
+---
+
 ## 📂 Catálogo de Prompts
 
 Aqui você encontra os prompts disponíveis no projeto, organizados por área de atuação.
