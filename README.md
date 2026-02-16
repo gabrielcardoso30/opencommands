@@ -21,17 +21,17 @@ Aqui você encontra os prompts disponíveis no projeto, organizados por área de
 
 | Arquivo | Atuação (Persona) | O que faz? |
 | :--- | :--- | :--- |
-| [**Code Review & Segurança**](./analisar-codigo-v1.md) | Senior Code Reviewer | Analisa código em busca de erros lógicos, falhas de segurança (OWASP), *bad smells* e violações de SOLID. |
-| [**Performance .NET**](./analisar-performance-dotnet-v1.md) | Engenheiro de Performance | Focado em otimização de C#: LINQ, `AsNoTracking`, alocação de memória e *async/await*. |
-| [**Documentação Técnica**](./documentar-metodo-ou-classe-v1.md) | Tech Lead & Mentor | Gera documentação didática e XML Docs (`///`) profissionais para métodos e classes. |
-| [**Execução de Demandas**](./nova-demanda-v1.md) | Arquiteto de Soluções | Cria um plano detalhado de implementação para novas features, com checklist e *rollback plan*. |
+| [**Code Review & Segurança**](./code-review-security.md) | Senior Code Reviewer | Analisa código em busca de erros lógicos, falhas de segurança (OWASP), *bad smells* e violações de SOLID. |
+| [**Performance .NET**](./dotnet-performance-review.md) | Engenheiro de Performance | Focado em otimização de C#: LINQ, `AsNoTracking`, alocação de memória e *async/await*. |
+| [**Documentação Técnica**](./csharp-docs-generator.md) | Tech Lead & Mentor | Gera documentação didática e XML Docs (`///`) profissionais para métodos e classes. |
+| [**Execução de Demandas**](./feature-implementation-workflow.md) | Arquiteto de Soluções | Cria um plano detalhado de implementação para novas features, com checklist e *rollback plan*. |
 
 ### 📊 Gestão de Produto & Empreendedorismo
 
 | Arquivo | Atuação (Persona) | O que faz? |
 | :--- | :--- | :--- |
-| [**Especificação de Tarefas**](./descrever-tarefas-v1.md) | PM & Analista de Requisitos | Transforma solicitações vagas em *User Stories* completas com Critérios de Aceite e Gherkin. |
-| [**Co-Fundador Técnico**](./consultar-cofundador-tecnico-v1.md) | CTO / Co-founder | Guia você desde a ideia ("Tenho um app em mente") até o MVP, passando por descoberta e planejamento. |
+| [**Especificação de Tarefas**](./task-specification-generator.md) | PM & Analista de Requisitos | Transforma solicitações vagas em *User Stories* completas com Critérios de Aceite e Gherkin. |
+| [**Co-Fundador Técnico**](./virtual-technical-cofounder.md) | CTO / Co-founder | Guia você desde a ideia ("Tenho um app em mente") até o MVP, passando por descoberta e planejamento. |
 
 ---
 
