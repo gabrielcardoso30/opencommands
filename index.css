@@ -25,8 +25,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* Ensure scrolling works for long content */
-    padding: 2rem;
+    padding: 0;
+    /* Remove body padding for fluid feel */
 }
 
 /* Background Blobs Animation */
@@ -88,15 +88,20 @@ body {
 /* Glassmorphism Container */
 .glass-container {
     width: 100%;
-    max-width: 1200px;
+    /* max-width removed for container-fluid */
     background: var(--glass-bg);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid var(--glass-border);
-    border-radius: 24px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid var(--glass-border);
+    border-radius: 0;
     box-shadow: var(--glass-shadow);
-    padding: 3rem;
+    padding: 2rem 2%;
+    /* Responsive horizontal padding */
     z-index: 1;
+    min-height: 100vh;
 }
 
 header {
@@ -142,8 +147,47 @@ header p {
 /* Grid Layout */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
+}
+
+/* About Project Section */
+.about-project {
+    margin-bottom: 3rem;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+.about-content h2,
+.emotional-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #fff, #667eea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-content p,
+.emotional-content p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 1.5rem;
+}
+
+.section-divider {
+    border: none;
+    border-top: 1px solid var(--glass-border);
+    margin: 3rem 0;
+    opacity: 0.5;
+}
+
+.emotional-content {
+    border-left: 4px solid #667eea;
+    padding-left: 2rem;
 }
 
 /* Card Styling */
@@ -326,22 +370,41 @@ footer a {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .glass-container {
-        padding: 2rem;
+        padding: 2rem 3%;
     }
 
     header h1 {
         font-size: 2.5rem;
     }
+
+    .about-project {
+        padding: 2.5rem;
+    }
 }
 
 @media (max-width: 768px) {
     body {
-        padding: 1rem;
+        padding: 0;
     }
 
     .glass-container {
+        padding: 3rem 1.5rem;
+        border-radius: 0;
+        /* Keep it fluid on mobile too */
+    }
+
+    .about-project {
         padding: 1.5rem;
-        border-radius: 16px;
+        margin-bottom: 3rem;
+    }
+
+    .about-content h2,
+    .emotional-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .emotional-content {
+        padding-left: 1rem;
     }
 
     header {
@@ -375,9 +438,17 @@ footer a {
         right: 1rem;
     }
 
-    .markdown-body h1 { font-size: 1.8rem; }
-    .markdown-body h2 { font-size: 1.5rem; }
-    .markdown-body h3 { font-size: 1.2rem; }
+    .markdown-body h1 {
+        font-size: 1.8rem;
+    }
+
+    .markdown-body h2 {
+        font-size: 1.5rem;
+    }
+
+    .markdown-body h3 {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 480px) {
