@@ -15,7 +15,7 @@ O objetivo é reduzir o tempo gasto na criação de contextos complexos e fornec
 
 ## 🌐 Interface Web (Liquid Glass)
 
-Recentemente, o projeto ganhou uma **interface web modernizada** utilizando a estética *Liquid Glass*. Você pode navegar pelos prompts de forma interativa, filtrá-los por categorias e copiá-los com apenas um clique.
+Recentemente, o projeto ganhou uma **interface web modernizada** utilizando a estética *Liquid Glass*. Além de navegar pelos prompts, a interface agora conta com monitoramento via **Google Analytics** para entender as demandas da comunidade e melhorar continuamente os conteúdos disponibilizados.
 
 🚀 **Acesse aqui:** [gabrielcardoso30.github.io/devai-prompts/](https://gabrielcardoso30.github.io/devai-prompts/)
 

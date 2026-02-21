@@ -13,6 +13,13 @@ Escolhemos o **SemVer** (`MAJOR.MINOR.PATCH`) por ser o padrão mais eficiente e
 
 ---
 
+## [1.2.0] - 2026-02-21
+
+### Adicionado
+- **Google Analytics:** Integração com gtag.js para monitoramento de tráfego e análise de uso.
+
+---
+
 ## [1.1.0] - 2026-02-21
 
 ### Adicionado
