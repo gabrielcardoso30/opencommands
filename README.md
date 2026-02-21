@@ -13,6 +13,14 @@ O objetivo é reduzir o tempo gasto na criação de contextos complexos e fornec
 
 ---
 
+## 🌐 Interface Web (Liquid Glass)
+
+Recentemente, o projeto ganhou uma **interface web modernizada** utilizando a estética *Liquid Glass*. Você pode navegar pelos prompts de forma interativa, filtrá-los por categorias e copiá-los com apenas um clique.
+
+🚀 **Acesse aqui:** [gabrielcardoso30.github.io/devai-prompts/](https://gabrielcardoso30.github.io/devai-prompts/)
+
+---
+
 ## ❤️ Por que criamos isso?
 
 Sabe aquela sensação de olhar para uma tela em branco às 18h de uma sexta-feira, precisando escrever uma documentação técnica perfeita? Ou o peso de herdar um código legado sem nenhum comentário, que parece uma bomba-relógio prestes a explodir na sua mão?
@@ -43,11 +51,13 @@ Aqui você encontra os prompts disponíveis no projeto, organizados por área de
 | [**Performance .NET**](./prompts/revisao-performance-dotnet.md) | Engenheiro de Performance | Focado em otimização de C#: LINQ, `AsNoTracking`, alocação de memória e *async/await*. |
 | [**Documentação Técnica**](./prompts/gerador-documentacao-csharp.md) | Tech Lead & Mentor | Gera documentação didática e XML Docs (`///`) profissionais para métodos e classes. |
 | [**Execução de Demandas**](./prompts/fluxo-implementacao-feature.md) | Arquiteto de Soluções | Cria um plano detalhado de implementação para novas features, com checklist e *rollback plan*. |
+| [**Padrão de Commits**](./prompts/padrao-commits-conventional.md) | DevOps Engineer | Gera mensagens de commit padronizadas baseadas no diff, seguindo Conventional Commits. |
 
 ### 📊 Gestão de Produto & Empreendedorismo
 
 | Arquivo | Atuação (Persona) | O que faz? |
 | :--- | :--- | :--- |
+| [**Análise Técnica de PDF**](./prompts/analise_pdf_projeto_sistema_super_detalhado.md) | Arquiteto de Soluções | Realiza análise profunda de PDFs de sistemas, extraindo visão, requisitos, riscos e backlog com estimativas. |
 | [**Especificação de Tarefas**](./prompts/gerador-especificacao-tarefas.md) | PM & Analista de Requisitos | Transforma solicitações vagas em *User Stories* completas com Critérios de Aceite e Gherkin. |
 | [**Co-Fundador Técnico**](./prompts/cofundador-tecnico-virtual.md) | CTO / Co-founder | Guia você desde a ideia ("Tenho um app em mente") até o MVP, passando por descoberta e planejamento. |
 
