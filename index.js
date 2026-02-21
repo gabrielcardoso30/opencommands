@@ -221,16 +221,25 @@ init();
 // Open Modal
 // Open Modal for Prompts (Markdown)
 // Open Modal for Prompts (Markdown)
-async function openModal(filename) {
+async function openModal(filename, isRoot = false) {
     modal.classList.add('visible');
     modalBody.innerHTML = '<p style="text-align:center;">Carregando...</p>';
+    
+    // Reset additional classes
+    modalBody.classList.remove('release-notes-content');
 
     try {
-        const response = await fetch('prompts/' + filename);
+        const path = isRoot ? filename : 'prompts/' + filename;
+        const response = await fetch(path);
         if (!response.ok) throw new Error('Falha ao carregar o prompt.');
 
         const markdown = await response.text();
         
+        // Add specific class for Release Notes styling
+        if (isRoot) {
+            modalBody.classList.add('release-notes-content');
+        }
+
         // Inject Copy Button and Content
         modalBody.innerHTML = `
             <button id="copy-btn" class="copy-btn">📋 Copiar Prompt</button>
@@ -312,6 +321,14 @@ document.addEventListener('DOMContentLoaded', () => {
             openStaticModal(btn.dataset.target);
         });
     });
+
+    // Version History Link
+    const projectVersion = document.getElementById('project-version');
+    if (projectVersion) {
+        projectVersion.addEventListener('click', () => {
+            openModal('RELEASE_NOTES.md', true);
+        });
+    }
 });
 
 // Feedback System Logic

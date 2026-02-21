@@ -797,6 +797,7 @@ footer a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  min-height: 40px; /* Alinhamento com a tag de versão */
 }
 
 .footer-btn:hover {
@@ -903,4 +904,52 @@ footer a {
   .feedback-modal-content {
     padding: 2rem 1.5rem;
   }
+}
+
+.footer-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.version-tag {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--glass-border);
+  color: rgba(255, 255, 255, 0.8); /* Aumentado para parecer mais ativo */
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px; /* Mesma altura do botão de feedback */
+}
+
+.version-tag:hover {
+  background: rgba(0, 169, 224, 0.2);
+  color: #fff;
+  border-color: var(--datalin-blue-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 169, 224, 0.2);
+}
+
+/* Estilos para o Modal de Release Notes com fonte reduzida */
+.release-notes-content {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.release-notes-content h1 { font-size: 1.6rem; }
+.release-notes-content h2 { font-size: 1.4rem; }
+.release-notes-content h3 { font-size: 1.1rem; }
+
+.release-notes-content p, 
+.release-notes-content li {
+  color: rgba(255, 255, 255, 0.8);
 }
