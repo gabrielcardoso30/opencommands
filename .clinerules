@@ -1,0 +1,34 @@
+# Regras de Atuação para Agentes de IA
+
+Este arquivo define os padrões técnicos, estéticos e de segurança para este projeto. Todo agente de IA deve seguir estas regras rigorosamente.
+
+## 🚀 Tecnologias Core
+1. **Frontend**: HTML5 Semântico, Vanilla JavaScript (ES6+), Vanilla CSS.
+2. **Frameworks**: Evite frameworks pesados ou TailwindCSS a menos que explicitamente solicitado.
+3. **Padrões**: Use APIs nativas do navegador sempre que possível.
+
+## 🎨 Design System (Liquid Glass)
+O projeto utiliza uma estética moderna e premium baseada em Glassmorphism.
+- **Cores Principais (HSL/HEX)**:
+  - Fundo: `#05070a` (Neutro quase preto)
+  - Primária: `#00a9e0` (Datalin Blue Light)
+  - Secundária: `#002855` (Datalin Blue Dark)
+- **Efeitos**:
+  - `backdrop-filter: blur(16px)` para containers glass.
+  - Gradientes suaves: `linear-gradient(135deg, #001222 0%, #00a9e0 100%)`.
+  - Micro-animações em hovers (ex: `transform: translateY(-5px)`).
+
+## 🛡️ Segurança e Prevenção de Risco (Zero Trust)
+1. **Segredos**: NUNCA escreva chaves de API ou senhas em texto claro. Use variáveis de ambiente.
+2. **Entradas**: Trate toda entrada como maliciosa. Valide tipos e sanitize strings.
+3. **Privilégio**: Nunca sugira comandos com `sudo` sem necessidade extrema.
+4. **Erros**: Retorne mensagens amigáveis ao usuário; logs detalhados apenas internamente.
+
+## 📝 Comunicação e Documentação
+- **Idioma**: Toda a documentação e comentários de código devem ser em **Português Brasileiro (PT-BR)**.
+- **Workflow**: Siga o protocolo de criação de planos em `.agent/tasks/` antes de execuções complexas.
+- **Commits**: Use o padrão **Conventional Commits** em PT-BR (ex: `feat:`, `fix:`, `docs:`).
+
+## 📂 Organização
+- **Arquivos**: Mantenha o código modular e siga o princípio SOLID.
+- **Comentários**: Documente métodos e classes, evitando obviedades. Limite de 180 caracteres por linha.
