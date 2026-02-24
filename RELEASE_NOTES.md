@@ -13,11 +13,20 @@ Escolhemos o **SemVer** (`MAJOR.MINOR.PATCH`) por ser o padrão mais eficiente e
 
 ---
 
+## [1.3.0] - 2026-02-24
+
+### Alterado
+- **Domínio Principal:** Migração do domínio de `prompts.datalin.com.br` para `opencommands.com`.
+- **SEO & Metadados:** Atualização de todas as URLs canônicas, metadados Open Graph e Twitter para o novo domínio.
+- **Documentação:** Atualização de links e referências no `README.md`.
+
+---
+
 ## [1.2.0] - 2026-02-21
 
 ### Adicionado
 - **Google Analytics:** Integração com gtag.js para monitoramento de tráfego e análise de uso.
-- **Domínio Customizado:** Padronização de todas as URLs internas e metadados para `prompts.datalin.com.br`.
+- **Domínio Customizado:** Padronização de todas as URLs internas e metadados para `opencommands.com`.
 
 ---
 

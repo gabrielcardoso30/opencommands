@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://prompts.datalin.com.br/sitemap.xml
+Sitemap: https://opencommands.com/sitemap.xml
