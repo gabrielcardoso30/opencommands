@@ -25,16 +25,52 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://opencommands.com/" />
-    <meta property="og:title" content="🚀 Prompts para Devs & PMs | Liquid Glass" />
+    <meta property="og:title" content="Prompts para Devs & PMs | Coleção gratuita para IAs generativas" />
     <meta property="og:description" content="Uma coleção curada para extrair o máximo de IAs generativas. Otimize seu tempo com prompts prontos para uso." />
     <meta property="og:image" content="https://opencommands.com/og-image.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://opencommands.com/" />
-    <meta property="twitter:title" content="🚀 Prompts para Devs & PMs | Liquid Glass" />
+    <meta property="twitter:title" content="Prompts para Devs & PMs | Coleção gratuita para IAs generativas" />
     <meta property="twitter:description" content="Uma coleção curada para extrair o máximo de IAs generativas. Otimize seu tempo com prompts prontos para uso." />
     <meta property="twitter:image" content="https://opencommands.com/og-image.png" />
+
+    <!-- Dados estruturados (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Prompts para Devs & PMs",
+      "description": "Coleção curada de prompts para Desenvolvedores e Product Managers. Acelere seu fluxo de trabalho com IAs generativas.",
+      "url": "https://opencommands.com/",
+      "author": {
+        "@type": "Person",
+        "name": "Gabriel Cardoso",
+        "url": "https://github.com/gabrielcardoso30"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Prompts para Devs & PMs",
+      "description": "Coleção curada de prompts para desenvolvedores e product managers.",
+      "url": "https://opencommands.com/",
+      "numberOfItems": 8,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Análise Técnica Completa de Projetos de Software via PDF", "description": "Análise profunda de PDFs de sistemas, extraindo visão, requisitos, riscos e backlog detalhado com estimativas." },
+        { "@type": "ListItem", "position": 2, "name": "Code Review & Segurança", "description": "Analisa código em busca de erros lógicos, falhas de segurança (OWASP) e violações de SOLID." },
+        { "@type": "ListItem", "position": 3, "name": "Performance .NET", "description": "Focado em otimização de C#: LINQ, AsNoTracking, alocação de memória e async/await." },
+        { "@type": "ListItem", "position": 4, "name": "Documentação Técnica", "description": "Gera documentação didática e XML Docs profissionais para métodos e classes." },
+        { "@type": "ListItem", "position": 5, "name": "Execução de Demandas", "description": "Cria um plano detalhado de implementação para novas features, com checklist e rollback plan." },
+        { "@type": "ListItem", "position": 6, "name": "Especificação de Tarefas", "description": "Transforma solicitações vagas em User Stories completas com Critérios de Aceite e Gherkin." },
+        { "@type": "ListItem", "position": 7, "name": "Co-Fundador Técnico", "description": "Guia você desde a ideia até o MVP, passando por descoberta e planejamento." },
+        { "@type": "ListItem", "position": 8, "name": "Padrão de Commits (Conventional)", "description": "Gera mensagens de commit padronizadas baseadas no diff, seguindo Conventional Commits." }
+      ]
+    }
+    </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,7 +81,7 @@
     />
 
     <!-- Marked.js for Markdown rendering -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="index.css" />
