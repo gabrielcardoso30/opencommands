@@ -13,6 +13,15 @@ Escolhemos o **SemVer** (`MAJOR.MINOR.PATCH`) por ser o padrão mais eficiente e
 
 ---
 
+## [1.4.0] - 2026-02-24
+
+### Adicionado
+- **Suporte Multilíngue (i18n):** Implementação de suporte para 5 idiomas (PT-BR, EN, ES, RU, ZH).
+- **Tradução de Conteúdo:** Todos os 8 prompts originais foram traduzidos para as 4 novas línguas suportadas.
+- **Seletor de Idiomas:** Novo componente de UI premium para alternância manual de idiomas.
+- **Detecção Automática:** Sistema inteligente que detecta o idioma do navegador e a localização do usuário.
+- **Estrutura de Pastas:** Reorganização dos prompts em diretórios específicos por idioma (`/prompts/en/`, `/prompts/es/`, etc.).
+
 ## [1.3.0] - 2026-02-24
 
 ### Alterado

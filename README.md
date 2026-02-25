@@ -21,6 +21,19 @@ Recentemente, o projeto ganhou uma **interface web modernizada** utilizando a es
 
 ---
 
+## 🌎 Suporte Global (Internationalization)
+
+O OpenCommands agora é **global**! A plataforma suporta automaticamente 5 idiomas:
+- 🇧🇷 Português (Brasil)
+- 🇺🇸 English
+- 🇪🇸 Español
+- 🇷🇺 Русский
+- 🇨🇳 中文
+
+A interface detecta seu idioma automaticamente, mas você também pode alternar manualmente usando o seletor no topo da página.
+
+---
+
 ## ❤️ Por que criamos isso?
 
 Sabe aquela sensação de olhar para uma tela em branco às 18h de uma sexta-feira, precisando escrever uma documentação técnica perfeita? Ou o peso de herdar um código legado sem nenhum comentário, que parece uma bomba-relógio prestes a explodir na sua mão?
@@ -39,27 +52,27 @@ Queremos que você termine seu trabalho mais cedo. Queremos que você sinta orgu
 
 ---
 
-## 📂 Catálogo de Prompts
+## 📂 Catálogo de Prompts (PT-BR)
 
-Aqui você encontra os prompts disponíveis no projeto, organizados por área de atuação.
+Aqui você encontra os prompts originais em Português. Para outras línguas, utilize a interface web.
 
 ### 🛠️ Desenvolvimento & Engenharia de Software
 
 | Arquivo | Atuação (Persona) | O que faz? |
 | :--- | :--- | :--- |
-| [**Code Review & Segurança**](./prompts/revisao-codigo-seguranca.md) | Senior Code Reviewer | Analisa código em busca de erros lógicos, falhas de segurança (OWASP), *bad smells* e violações de SOLID. |
-| [**Performance .NET**](./prompts/revisao-performance-dotnet.md) | Engenheiro de Performance | Focado em otimização de C#: LINQ, `AsNoTracking`, alocação de memória e *async/await*. |
-| [**Documentação Técnica**](./prompts/gerador-documentacao-csharp.md) | Tech Lead & Mentor | Gera documentação didática e XML Docs (`///`) profissionais para métodos e classes. |
-| [**Execução de Demandas**](./prompts/fluxo-implementacao-feature.md) | Arquiteto de Soluções | Cria um plano detalhado de implementação para novas features, com checklist e *rollback plan*. |
-| [**Padrão de Commits**](./prompts/padrao-commits-conventional.md) | DevOps Engineer | Gera mensagens de commit padronizadas baseadas no diff, seguindo Conventional Commits. |
+| [**Code Review & Segurança**](./prompts/pt-BR/revisao-codigo-seguranca.md) | Senior Code Reviewer | Analisa código em busca de erros lógicos, falhas de segurança (OWASP), *bad smells* e violações de SOLID. |
+| [**Performance .NET**](./prompts/pt-BR/revisao-performance-dotnet.md) | Engenheiro de Performance | Focado em otimização de C#: LINQ, `AsNoTracking`, alocação de memória e *async/await*. |
+| [**Documentação Técnica**](./prompts/pt-BR/gerador-documentacao-csharp.md) | Tech Lead & Mentor | Gera documentação didática e XML Docs (`///`) profissionais para métodos e classes. |
+| [**Execução de Demandas**](./prompts/pt-BR/fluxo-implementacao-feature.md) | Arquiteto de Soluções | Cria um plano detalhado de implementação para novas features, com checklist e *rollback plan*. |
+| [**Padrão de Commits**](./prompts/pt-BR/padrao-commits-conventional.md) | DevOps Engineer | Gera mensagens de commit padronizadas baseadas no diff, seguindo Conventional Commits. |
 
 ### 📊 Gestão de Produto & Empreendedorismo
 
 | Arquivo | Atuação (Persona) | O que faz? |
 | :--- | :--- | :--- |
-| [**Análise Técnica de PDF**](./prompts/analise_pdf_projeto_sistema_super_detalhado.md) | Arquiteto de Soluções | Realiza análise profunda de PDFs de sistemas, extraindo visão, requisitos, riscos e backlog com estimativas. |
-| [**Especificação de Tarefas**](./prompts/gerador-especificacao-tarefas.md) | PM & Analista de Requisitos | Transforma solicitações vagas em *User Stories* completas com Critérios de Aceite e Gherkin. |
-| [**Co-Fundador Técnico**](./prompts/cofundador-tecnico-virtual.md) | CTO / Co-founder | Guia você desde a ideia ("Tenho um app em mente") até o MVP, passando por descoberta e planejamento. |
+| [**Análise Técnica de PDF**](./prompts/pt-BR/analise_pdf_projeto_sistema_super_detalhado.md) | Arquiteto de Soluções | Realiza análise profunda de PDFs de sistemas, extraindo visão, requisitos, riscos e backlog com estimativas. |
+| [**Especificação de Tarefas**](./prompts/pt-BR/gerador-especificacao-tarefas.md) | PM & Analista de Requisitos | Transforma solicitações vagas em *User Stories* completas com Critérios de Aceite e Gherkin. |
+| [**Co-Fundador Técnico**](./prompts/pt-BR/cofundador-tecnico-virtual.md) | CTO / Co-founder | Guia você desde a ideia ("Tenho um app em mente") até o MVP, passando por descoberta e planejamento. |
 
 ---
 
