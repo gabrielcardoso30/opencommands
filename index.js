@@ -783,6 +783,7 @@ function renderPrompts(category) {
 // Open Modal for Prompts (Markdown)
 async function openModal(filename, isRoot = false) {
     const t = i18n[currentLang];
+    modal.classList.remove('hidden');
     modal.classList.add('visible');
     modalBody.innerHTML = `<p style="text-align:center;">${t.modalLoading}</p>`;
 
@@ -860,6 +861,7 @@ function openStaticModal(key) {
 
     if (!title || !content) return;
 
+    modal.classList.remove('hidden');
     modal.classList.add('visible');
     modalBody.innerHTML = `
         <h2>${title}</h2>
