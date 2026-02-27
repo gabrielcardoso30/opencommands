@@ -13,6 +13,14 @@ Escolhemos o **SemVer** (`MAJOR.MINOR.PATCH`) por ser o padrão mais eficiente e
 
 ---
 
+## [1.5.0] - 2026-02-27
+
+### Adicionado
+- **Novo Prompt:** "Inserir Logs Estruturados" adicionado à categoria de Desenvolvimento & Engenharia de Software, na subcategoria Observabilidade & Debugging.
+- **Tradução de Conteúdo:** O novo prompt foi traduzido para os 4 idiomas adicionais suportados (EN, ES, RU, ZH).
+
+---
+
 ## [1.4.0] - 2026-02-24
 
 ### Adicionado

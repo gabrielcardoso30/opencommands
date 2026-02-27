@@ -65,6 +65,7 @@ Aqui você encontra os prompts originais em Português. Para outras línguas, ut
 | [**Documentação Técnica**](./prompts/pt-BR/gerador-documentacao-csharp.md) | Tech Lead & Mentor | Gera documentação didática e XML Docs (`///`) profissionais para métodos e classes. |
 | [**Execução de Demandas**](./prompts/pt-BR/fluxo-implementacao-feature.md) | Arquiteto de Soluções | Cria um plano detalhado de implementação para novas features, com checklist e *rollback plan*. |
 | [**Padrão de Commits**](./prompts/pt-BR/padrao-commits-conventional.md) | DevOps Engineer | Gera mensagens de commit padronizadas baseadas no diff, seguindo Conventional Commits. |
+| [**Inserir Logs Estruturados**](./prompts/pt-BR/inserir-logs.md) | Engenheiro de Observabilidade | Analisa contextos de código legados ou sem logs e injeta observabilidade estruturada, sem quebrar a lógica de negócio. |
 
 ### 📊 Gestão de Produto & Empreendedorismo
 

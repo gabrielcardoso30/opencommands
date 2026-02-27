@@ -494,6 +494,37 @@ const prompts = [
             'ru': '🏗️ Git и версионирование',
             'zh': '🏗️ Git 与版本控制'
         }
+    },
+    {
+        filename: 'inserir-logs.md',
+        title: {
+            'pt-BR': 'Inserir Logs Estruturados',
+            'en': 'Insert Structured Logs',
+            'es': 'Insertar Logs Estructurados',
+            'ru': 'Вставка структурированных логов',
+            'zh': '插入结构化日志'
+        },
+        description: {
+            'pt-BR': 'Analisa contextos de código legados ou sem logs e injeta observabilidade estruturada, sem quebrar a lógica de negócio.',
+            'en': 'Analyzes legacy or unlogged code contexts and injects structured observability without breaking business logic.',
+            'es': 'Analiza contextos de código legados o sin logs e inyecta observabilidad estructurada, sin romper la lógica de negocio.',
+            'ru': 'Анализирует унаследованный код без логов и внедряет структурированную наблюдаемость, не нарушая бизнес-логику.',
+            'zh': '分析缺乏日志的遗留代码上下文，注入结构化可观测性，且不破坏业务逻辑。'
+        },
+        category: {
+            'pt-BR': 'Desenvolvimento & Engenharia de Software',
+            'en': 'Software Development & Engineering',
+            'es': 'Desarrollo e Ingeniería de Software',
+            'ru': 'Разработка ПО и инженерия',
+            'zh': '软件开发与工程'
+        },
+        subcategory: {
+            'pt-BR': '🔍 Observabilidade & Debugging',
+            'en': '🔍 Observability & Debugging',
+            'es': '🔍 Observabilidad y Debugging',
+            'ru': '🔍 Наблюдаемость и отладка',
+            'zh': '🔍 可观测性与调试'
+        }
     }
 ];
 
